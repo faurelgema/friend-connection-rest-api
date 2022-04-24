@@ -1,4 +1,6 @@
-GO Friends Connection REST API
+# GO Friends Connection REST API
+
+
 made with GO, using gin-gonic/gin framework and gorm for the ORM
 
                     
@@ -9,9 +11,9 @@ user     := "postgres"
 password := "postgres"
 dbname   := "friend-mgmt"
 
-USE THIS LINK AFTER RUNNING THE PROGRAM 
+# USE THIS LINK AFTER RUNNING THE PROGRAM 
 http://localhost:3000/swagger/index.html
-API Documentation
+# API Documentation
 This is API self documentation by using Swagger. You can test all of them by expand specific api then click on try it out button.
 
 Swagger API Documentation
@@ -22,7 +24,7 @@ Ive been created test too.
 
 
 Achievement
- Write the tests for all APIs.
- Organize the code with packages
- Make docs with Swagger
- Building a deployment process
+- [x] Write the tests for all APIs.
+- [x] Organize the code with packages
+- [x] Make docs with Swagger
+- [x] Building a deployment process 
