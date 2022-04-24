@@ -4,12 +4,14 @@
 made with GO, using gin-gonic/gin framework and gorm for the ORM
 
                     
-Installation & Run
+## Installation & Run
+```go
 host     := "db"
 port     := 5432
-user     := "postgres"
-password := "postgres"
+user     := "postgres" (fill with your own config)
+password := "user" (fill with your own config)
 dbname   := "friend-mgmt"
+```
 
 # USE THIS LINK AFTER RUNNING THE PROGRAM 
 http://localhost:3000/swagger/index.html
